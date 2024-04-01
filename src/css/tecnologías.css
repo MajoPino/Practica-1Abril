@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+nav{
+    background-color: #F9FAFC;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    width: 190px;
+}
+h1{
+    margin-left: 5px;
+}
