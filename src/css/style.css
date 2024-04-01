@@ -1,0 +1,29 @@
+body{
+    background-color: #77c9c9;
+}
+.contenedor{
+    border: 5px groove #2d2d97;
+    padding: 10px;
+    height: 500px;
+}
+
+.position{
+    width: 100px;
+    height: 100px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.static{
+    background-color: #88a545;
+}
+.relative{
+    background-color: #af5448;
+}
+.absolute{
+    background-color: #235e56;
+}
+.fixed{
+    background-color: #5a3585;
+}
