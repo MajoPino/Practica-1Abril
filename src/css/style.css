@@ -1,10 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #77c9c9;
+    padding: 10px;
 }
 .contenedor{
     border: 5px groove #2d2d97;
     padding: 10px;
-    height: 500px;
+    height: 600px;
 }
 
 .position{
@@ -18,12 +24,31 @@ body{
 .static{
     background-color: #88a545;
 }
+.sticky{
+    background-color: #994e8f;
+    /*position: sticky;*/
+    /*top: 0;*/
+
+}
 .relative{
     background-color: #af5448;
+    z-index: 1;
+    /* Poner objeto por encima de otro 'capas'*/
+    /*position: relative;*/
+    /*top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;*/
 }
 .absolute{
     background-color: #235e56;
+    /*position: absolute;*/
+    /*right: 0;
+    bottom: 0;*/
 }
 .fixed{
     background-color: #5a3585;
+    /*position: fixed;*/
+   /* top: 0;
+    left: 40%;*/
 }
