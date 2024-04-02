@@ -30,6 +30,63 @@ h2{
     background-color: white;
 }
 .basicatitulo{
+    max-height: 30px;
     position: sticky;
     top: 0;
+    background-color: white;
+    & h2{
+        margin-left: 20px;
+    }
+}
+.etapasection{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.avanzadatitulo{
+    max-height: 30px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    & h2{
+        margin-left: 20px;
+    }
+}
+.cajita{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 150px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    & img{
+        margin-right: 8px;
+    }
+}
+.text{
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    & a{
+        text-decoration: none;
+        color: #6A5DF4;
+    }
+}
+.redes{
+    margin-right: 10px;
+    position: sticky;
+    right: 0;
+    left: 100%;
+    & a{
+        margin-right: 5px;
+        color: black;
+    }
 }
